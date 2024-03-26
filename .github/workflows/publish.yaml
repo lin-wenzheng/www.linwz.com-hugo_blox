@@ -56,6 +56,17 @@ jobs:
         with:
           path: ./public
 
+      - name: Move public folder
+        run: mv public/ docs/
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          git commit -m "Update generated content"
+          git push
+
   # Deploy website to GitHub Pages hosting
   deploy:
     if: github.repository_owner != 'HugoBlox'
