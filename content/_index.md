@@ -88,7 +88,7 @@ sections:
         postcode: '330022'
         country: 中国 China
         country_code: CN
-      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        directions: 洁琼楼220 Jieqiong Building Room 220
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
         latitude: '28.680592'
