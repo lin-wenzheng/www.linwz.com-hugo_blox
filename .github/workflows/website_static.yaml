@@ -66,4 +66,4 @@ jobs:
           git config --global user.name "linlinlin1992"
           git add .
           git commit -m "Add website artifact"
-          git push
+          git push https://${{ secrets.GH_TOKEN }}@github.com/linlinlin1992/static_website.git main
