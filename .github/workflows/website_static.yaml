@@ -61,3 +61,13 @@ jobs:
           target_dir: /
           target_branch: main # default
           access_token: ${{ secrets.GH_TOKEN }}
+      - name: Push generated webpage to another repository
+        uses: nkoppel/push-files-to-another-repository@1.1.0
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.GH_TOKEN }}
+        with:
+          source-files: 'static/'
+          destination-username: 'linlinlin1992'
+          destination-repository: 'static_website'
+          destination-directory: '/'
+          commit-email: 'linlinlin1992@sina.com'
