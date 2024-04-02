@@ -38,15 +38,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: 心理学博士 PhD in Psychology
+      institution: 新加坡国立大学 National University of Singapore
+      year: 2020
+    - course: 心理学学士 BSc in Psychology
+      institution: 北京师范大学 Beijing Normal University
+      year: 2014
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
