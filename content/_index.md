@@ -77,6 +77,8 @@ sections:
     content:
       title: Contact
       subtitle:
+      text: |-
+        欢迎通过邮件交流。
       # Contact (add or remove contact options as necessary)
       email: lin.wenzheng@aliyun.com
       address:
