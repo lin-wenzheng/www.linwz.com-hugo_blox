@@ -56,7 +56,7 @@ jobs:
       - name: Deploy
         uses: manzoorwanijk/action-deploy-to-repo@v3
         with:
-          src_dir: build
+          src_dir: /public
           target_repo: linlinlin1992/static_website
           target_dir: /
           target_branch: main # default
