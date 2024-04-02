@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 林闻正
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Lin, Wenzheng
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Wenzheng
+last_name: Lin
 
 # Status emoji
 status:
@@ -17,12 +17,14 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Lecturer of Psychology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: 江西师范大学, 讲师
+  - name: Jiangxi Normal University, Lecturer
+  - name: lin.wenzheng@aliyun.com
+    url: lin.wenzheng@aliyun.com
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
