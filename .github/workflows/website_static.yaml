@@ -53,15 +53,11 @@ jobs:
         with:
           name: website
           path: ./website.zip
-      - name: Clone target repository
-        run: |
-          git clone https://github.com/linlinlin1992/static_website.git
-      - name: Move artifact to target repository
-        run: |
-          rsync -a ./public/ static_website/
-          cd static_website
-      - name: Commit and push changes
-        run: |
-              git config --global user.email "linlinlin1992@sina.com"
-              git config --global user.name "linlinlin1992"
-              git push https://<username>:${{ secrets.GH_TOKEN }}@github.com/linlinlin1992/static_website.git HEAD:main
+      - name: Deploy
+        uses: manzoorwanijk/action-deploy-to-repo@v3
+        with:
+          src_dir: build
+          target_repo: linlinlin1992/static_website
+          target_dir: /
+          target_branch: main # default
+          access_token: ${{ secrets.GH_TOKEN }}
