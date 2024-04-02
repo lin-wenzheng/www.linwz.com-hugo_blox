@@ -89,7 +89,7 @@ skills:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
+# social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
@@ -111,7 +111,7 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
+  # - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
 
@@ -119,5 +119,11 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My research interest primarily lies in the field of social cognition and personality. One line of my research focuses on how humility  facilitates prosocial outcomes. For example, we found that people with higher levels of humility tend to reduce their use of stereotypes and subsequently suppress their prejudice towards stigmatized social groups (e.g., the homosexuals). Currently, our lab tries to further disentangle  the mechanisms underlying the influence of humlity on our person perception and interpersonal interactions. My other research widely involves the social cognitive processes underlying social judgments and decision making (moral decision making mostly).
+
+Research collaboration is welcomed!
+
+本实验室秉承着应该大致上和实验室名称一样的研究领域，主要致力于研究人格与社会认知领域。人格领域的研究主要关注谦逊。实验室目前已有研究发现谦逊能有效减少个体刻板印象的使用以及歧视。现正进一步探索其在社会判断与社会互动领域的影响机制，主要关注1）谦逊对于群际间认知、态度与互动行为的影响；2）谦逊对于个体自身刻板印象威胁的影响；3）谦逊个体影响他人亲社会进程的机制等。本实验室其他研究取向广泛关注个体人际知觉、决策（主要是道德决策）的社会认知进程与结果。
+
+**欢迎对类似研究感兴趣的本科与研究生加入实验室团队！** [点击这里了解详情](https://www.linwz.com/joinus/)
 {style="text-align: justify;"}
