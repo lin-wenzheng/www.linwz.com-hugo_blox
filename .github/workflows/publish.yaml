@@ -4,8 +4,10 @@ env:
   WC_HUGO_VERSION: '0.123.3'
 
 on:
+  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
 permissions:
@@ -18,51 +20,43 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-
-  build-deploy:
-    if: github.repository_owner != 'HugoBlox'
+  # Build website
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
+          # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2.5.0
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-
-      - name: Cache modules
-        uses: actions/cache@v2
-        with:
-          path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-
-      - name: Build with Hugo
+      - name: Create website
         env:
           HUGO_ENVIRONMENT: production
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-
-      - name: Archive Production Artifact
+          hugo --minify
+      - name: Zip website
+        run: |
+          zip -r website.zip public
+      - name: Publish artifact
         uses: actions/upload-artifact@v2
         with:
           name: website
-          path: ./public
-          if-no-files-found: error
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-
+          path: "./website.zip"
+          
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
-
-      - name: List Artifact
-        run: |
-          ls -alh ./public
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
