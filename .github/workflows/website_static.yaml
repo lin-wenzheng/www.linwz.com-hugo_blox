@@ -58,7 +58,7 @@ jobs:
           git clone https://github.com/linlinlin1992/static_website.git
       - name: Move artifact to target repository
         run: |
-          mv -f ./public/* static_website/
+          rsync -a ./public/ static_website/
           cd static_website
       - name: Commit and push changes
         run: |
