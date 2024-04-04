@@ -12,6 +12,8 @@ comments: ture  # Show comments?
 header:
   caption: "JOIN US"
   image: "grouppic2.jpg"
+banner:
+  image: 'grouppic2.jpg'
 ---
 
 本实验室常年诚招有学术追求和想法的本科生与研究生加入我们的团队！
