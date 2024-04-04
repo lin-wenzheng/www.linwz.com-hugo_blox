@@ -59,8 +59,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        # - name: Deep Learning
-        #   tag: Deep Learning
+        - name: Humility
+          tag: Humility
         - name: Other
           tag: Demo
     design:
