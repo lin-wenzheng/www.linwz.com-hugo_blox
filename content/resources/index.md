@@ -21,6 +21,8 @@ header:
   - 教育账户注册使用这个链接[【点击这里】](https://www.microsoft.com/zh-cn/education/products/office)。需要使用域名带edu的邮箱注册，可以享受微软的一些免费服务，加入群组可以作为成员。当然，以来宾方式加入的区别暂时也不太大。
 ### Jatos： https://exp.lwz.one or https://e.lwz.one 
   - jspsych 托管平台；用户名与密码进群询问；平台不稳定数据需及时下载。对应两种内网穿透方案，一个不能用时可以先试另一个。两个都不能用，及时切换到下面的容灾备份方案。
+### 线上会议： https://meet.linwz.com
+  - 线上会议使用，主持人向老师索要账号密码
 ### Limesurvey： https://survey.lwz.one/admin 
   - 问卷收集平台；用户名与密码进群询问.
 ### Rstudio: https://r.lwz.one 
