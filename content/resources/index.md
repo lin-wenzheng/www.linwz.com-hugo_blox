@@ -22,7 +22,7 @@ header:
 ### Jatos： https://exp.lwz.one or https://e.lwz.one 
   - jspsych 托管平台；用户名与密码进群询问；平台不稳定数据需及时下载。对应两种内网穿透方案，一个不能用时可以先试另一个。两个都不能用，及时切换到下面的容灾备份方案。
 ### 线上会议： https://meet.linwz.com
-  - 线上会议使用，主持人向老师索要账号密码
+  - 线上会议使用，第一次加载时间会比较久，主持人向老师索要账号密码
 ### Limesurvey： https://survey.lwz.one/admin 
   - 问卷收集平台；用户名与密码进群询问.
 ### Rstudio: https://r.lwz.one 
