@@ -25,7 +25,8 @@ organizations:
   - name: Jiangxi Normal University, Lecturer
   - name: lin.wenzheng@aliyun.com
     url: lin.wenzheng@aliyun.com
-  - name: psywzlin@gmail.com (Alternative if the Aliyun's e-mail anti-spam mechanism activated)
+  - name: If failed on Aliyun e-mail, try:
+  - name: psywzlin@gmail.com 
     url: psywzlin@gmail.com
 
 # Short bio (displayed in user profile at end of posts)
