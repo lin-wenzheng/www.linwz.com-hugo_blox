@@ -4,4 +4,4 @@ date: 2024-05-05
 math: true
 ---
 
-{{< embed-pdf url="./siteofresearch/post/test/test.pdf" >}}
+{{< embed-pdf url="./test.pdf" >}}
