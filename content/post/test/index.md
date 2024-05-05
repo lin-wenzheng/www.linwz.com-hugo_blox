@@ -1,7 +1,7 @@
 ---
-title: Blog with Jupyter Notebooks!
-date: '2023-11-04'
-summary: Easily blog from Jupyter notebooks!
+title: Humility Shaping social judgment
+date: '2024-05-05'
+summary: Online version of Doctorate Dissertation
 ---
 
 {{< embed-pdf url="./LWZ - Dissertation.pdf" >}}
