@@ -96,8 +96,8 @@ features:
       index_name: ''
       show_logo: false
   map:
-    # mapnik or mapbox
-    provider: 'mapbox'
+    # mapnik or mapbox, ‘’for not using it. As it is blocked in China mainland, disable this function.
+    provider: ''
     api_key: ''
     zoom: 15
 
