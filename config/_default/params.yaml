@@ -96,7 +96,8 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: 'mapnik'
+    # mapnik or mapbox
+    provider: 'mapbox'
     api_key: ''
     zoom: 15
 
