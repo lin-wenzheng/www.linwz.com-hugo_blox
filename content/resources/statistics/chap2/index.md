@@ -1,5 +1,5 @@
 ---
-title : "test html embed"
+title : ""
 summary : "slidy"
 --- 
 
