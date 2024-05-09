@@ -39,4 +39,4 @@ header:
 - 总的来说，不推荐主要使用上述两个网址。但是当主服务器出现问题，又急需使用网盘和jatos的话，可以临时使用。
 
 ### 课程资料（测试）
-- [统计](/resources/statistics)
+- [统计](/resources/statistics/index.html)
