@@ -37,3 +37,6 @@ header:
 - Jatos: https://lab.lwz.one or https://l.lwz.one
 - 另一地点做的服务器，网盘内容增量同步，内容相同（会有几分钟延迟）。Jatos 数据不同步，建议使用jatos的同学可以把程序复制一份在lab这个平台上，以防exp的临时出现问题。
 - 总的来说，不推荐主要使用上述两个网址。但是当主服务器出现问题，又急需使用网盘和jatos的话，可以临时使用。
+
+### 课程资料（测试）
+- [统计](/resources/statistics)
