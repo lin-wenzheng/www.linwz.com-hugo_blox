@@ -65,7 +65,7 @@ sections:
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       # view: showcase
       view: card
       # For Showcase view, flip alternate rows?
