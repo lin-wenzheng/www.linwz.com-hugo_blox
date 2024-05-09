@@ -3,5 +3,5 @@ title : "test html embed"
 summary : "slidy"
 --- 
 <iframe src="https://www.linwz.com/moderation_mediation.html"  
-  height="100%" 
+  height="200%" 
   width="100%"></iframe>
