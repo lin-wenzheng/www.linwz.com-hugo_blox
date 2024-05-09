@@ -23,7 +23,7 @@ main:
     url: '#contact'
     weight: 60
   - name: Resources
-    url: 'resources'
+    url: 'resources/lab'
     weight: 70
   - name: Join Us
     url: 'joinus'
