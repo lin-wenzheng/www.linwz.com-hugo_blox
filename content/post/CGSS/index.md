@@ -5,4 +5,5 @@ draft = false
 relPermalinkOverride = '/rmd/Data_report.html'
 +++
 
-[Slides]({{< relref "/rmd/Data_report" >}})
+
+{{% staticref "/rmd/Data_report.html" "newtab" %}}Slides{{% /staticref %}}
