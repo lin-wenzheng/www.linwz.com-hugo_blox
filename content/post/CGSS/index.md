@@ -5,4 +5,4 @@ draft = false
 relPermalinkOverride = '/rmd/Data_report.html'
 +++
 
-[Slides]({{< relref "/rmd/Data_report.html" >}})
+[Slides]({{< relref "/rmd/Data_report" >}})
