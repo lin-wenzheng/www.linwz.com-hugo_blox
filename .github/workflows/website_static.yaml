@@ -61,6 +61,7 @@ jobs:
           target_dir: /
           target_branch: main # default
           access_token: ${{ secrets.GH_TOKEN }}
+          clean: true # ensures that the target repo is cleaned before deploying new files
 
           destination-repository: 'static_website'
           destination-directory: '/'
