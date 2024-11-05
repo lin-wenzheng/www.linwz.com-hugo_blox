@@ -61,8 +61,8 @@ jobs:
           target_dir: /
           target_branch: main # default
           access_token: ${{ secrets.GH_TOKEN }}
-          cleanup_command: "rm -rf /*" #remove all the files before deploying
+          cleanup_command: "rm -rf assets/*" #remove all the files before deploying
 
-          destination-repository: 'static_website'
-          destination-directory: '/'
-          commit-email: 'linlinlin1992@sina.com'
+          #destination-repository: 'static_website'
+          #destination-directory: '/'
+          git_user_email: 'linlinlin1992@sina.com'
