@@ -53,16 +53,27 @@ jobs:
         with:
           name: website
           path: ./website.zip
-      - name: Deploy
-        uses: manzoorwanijk/action-deploy-to-repo@v3
-        with:
-          src_dir: /public
-          target_repo: linlinlin1992/static_website
-          target_dir: /
-          target_branch: main # default
-          access_token: ${{ secrets.GH_TOKEN }}
-          cleanup_command: "rm -rf assets/*" #remove all the files before deploying
+          
+      # Highlighted: Clone target repository
+      - name: Clone target repository
+        run: |
+          git clone https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/linlinlin1992/static_website.git target-repo
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-          #destination-repository: 'static_website'
-          #destination-directory: '/'
-          git_user_email: 'linlinlin1992@sina.com'
+      # Highlighted: Rsync built files to target repository
+      - name: Rsync built files to target repository
+        run: |
+          rsync -av --delete ./public/ target-repo/
+        working-directory: .
+        
+      - name: Commit and push changes to target repository
+        run: |
+          cd target-repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Deploy updated website"
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/linlinlin1992/static_website.git
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
