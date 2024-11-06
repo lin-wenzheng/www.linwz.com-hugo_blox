@@ -64,7 +64,7 @@ jobs:
       # Highlighted: Rsync built files to target repository
       - name: Rsync built files to target repository
         run: |
-          rsync -av --delete ./public/ target-repo/
+          rsync -av --delete --exclude='.github/' ./public/ target-repo/
         working-directory: .
         
       - name: Commit and push changes to target repository
