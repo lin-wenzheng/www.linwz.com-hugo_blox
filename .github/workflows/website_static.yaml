@@ -67,7 +67,7 @@ jobs:
           # Loop over each HTML file and add a link to it
           for file in $(ls public/slidy/*.html); do
             filename=$(basename "$file")
-            echo "<li><a href='slidy/$filename'>$filename</a></li>" >> public/slidy/index.html
+            echo "<li><a href='$filename'>$filename</a></li>" >> public/slidy/index.html
           done
 
           echo "</ul></body></html>" >> public/slidy/index.html
