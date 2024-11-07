@@ -57,7 +57,21 @@ jobs:
       - name: Insert Baidu Site Verification Meta Tag
         run: |
           sed -i 's|<head>|<head>\n<meta name="baidu-site-verification" content="codeva-RatOJrEmaq" />|' public/index.html
+
+      - name: Generate HTML file list
+        run: |
+          # Get all .html files in the 'pages' directory
+          echo "<!DOCTYPE html>" > public/slidy/index.html
+          echo "<html><head><title>File List</title></head><body><h1>Available HTML Files</h1><ul>" >> public/slidy/index.html
           
+          # Loop over each HTML file and add a link to it
+          for file in $(ls public/slidy/*.html); do
+            filename=$(basename "$file")
+            echo "<li><a href='slidy/$filename'>$filename</a></li>" >> public/slidy/index.html
+          done
+
+          echo "</ul></body></html>" >> public/slidy/index.html
+
       - name: Deploy
         uses: manzoorwanijk/action-deploy-to-repo@v3
         with:
