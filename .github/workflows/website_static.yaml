@@ -58,7 +58,7 @@ jobs:
         run: |
           sed -i 's|<head>|<head>\n<meta name="baidu-site-verification" content="codeva-RatOJrEmaq" />|' public/index.html
 
-      - name: Generate HTML file list
+      - name: Generate HTML file list and add noindex meta tag
         run: |
           # Get all .html files in the 'pages' directory
           echo "<!DOCTYPE html>" > public/slidy/index.html
