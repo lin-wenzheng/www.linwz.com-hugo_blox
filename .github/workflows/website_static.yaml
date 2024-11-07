@@ -66,8 +66,13 @@ jobs:
           
           # Loop over each HTML file and add a link to it
           for file in $(ls public/slidy/*.html); do
+            if ! grep -q '<meta name="robots" content="noindex">' "$file"; then
+              sed -i 's|<head>|<head><meta name="robots" content="noindex">|' "$file"
+            fi
             filename=$(basename "$file")
-            echo "<li><a href='$filename'>$filename</a></li>" >> public/slidy/index.html
+            if [ "$filename" != "index.html" ]; then
+              echo "<li><a href='$filename'>$filename</a></li>" >> public/slidy/index.html
+            fi
           done
 
           echo "</ul></body></html>" >> public/slidy/index.html
