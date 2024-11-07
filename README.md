@@ -1,3 +1,4 @@
+[![Deploy website to GitHub Pages](https://github.com/linlinlin1992/siteofresearch/actions/workflows/publish.yaml/badge.svg)](https://github.com/linlinlin1992/siteofresearch/actions/workflows/publish.yaml)
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
 
 [![Screenshot](./preview.png)](https://hugoblox.com/templates/)
