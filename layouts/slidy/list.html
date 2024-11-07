@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation Links</title>
+</head>
+<body>
+    <h1>Presentation Links</h1>
+    <ul>
+        {{ range where .Site.RegularPages "Section" "slidy" }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</body>
+</html>
