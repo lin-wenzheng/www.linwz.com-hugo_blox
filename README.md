@@ -1,5 +1,5 @@
 [![Deploy website to GitHub Pages](https://github.com/linlinlin1992/siteofresearch/actions/workflows/publish.yaml/badge.svg)](https://github.com/linlinlin1992/siteofresearch/actions/workflows/publish.yaml)
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv) [![Generate and Zip Website](https://github.com/linlinlin1992/siteofresearch/actions/workflows/website_static.yaml/badge.svg)](https://github.com/linlinlin1992/siteofresearch/actions/workflows/website_static.yaml)
 
 [![Screenshot](./preview.png)](https://hugoblox.com/templates/)
 
