@@ -62,7 +62,7 @@ jobs:
         run: |
           # Get all .html files in the 'pages' directory
           echo "<!DOCTYPE html>" > public/slidy/index.html
-          echo "<html><head><title>File List</title></head><body><h1>Available HTML Files</h1><ul>" >> public/slidy/index.html
+          echo "<html><head><title>File List</title></head><body><h1>List of Pages</h1><ul>" >> public/slidy/index.html
           
           # Loop over each HTML file and add a link to it
           for file in $(ls public/slidy/*.html); do
