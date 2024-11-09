@@ -69,9 +69,9 @@ jobs:
             if ! grep -q '<meta name="robots" content="noindex">' "$file"; then
               sed -i 's|<head>|<head><meta name="robots" content="noindex">|' "$file"
             fi
-            filename=$(basename "$file")
-            if [ "$filename" != "index.html" ]; then
-              echo "<li><a href='$filename'>$filename</a></li>" >> public/slidy/index.html
+            filename=$(basename "$file" .html)
+            if [ "$filename" != "index" ]; then
+              echo "<li><a href='$filename.html'>$filename</a></li>" >> public/slidy/index.html
             fi
           done
 
