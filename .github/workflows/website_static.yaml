@@ -58,11 +58,11 @@ jobs:
         run: |
           sed -i 's|<head>|<head>\n<meta name="baidu-site-verification" content="codeva-RatOJrEmaq" />|' public/index.html
 
-      - name: Generate HTML file list and add noindex meta tag
+      - name: Generate file list and add noindex meta tag
         run: |
-          # Get all .html files in the 'pages' directory
+          # Get all .html and .pdf files in the 'pages' directory
           echo "<!DOCTYPE html>" > public/slidy/index.html
-          echo "<html><head><title>Page List</title></head><body><h1>List of Pages</h1><ul>" >> public/slidy/index.html
+          echo "<html><head><title>Page List</title><meta name=\"robots\" content=\"noindex\"></head><body><h1>List of Pages</h1><ul>" >> public/slidy/index.html
           
           # Loop over each HTML file and add a link to it
           for file in $(ls public/slidy/*.html); do
@@ -73,6 +73,12 @@ jobs:
             if [ "$filename" != "index" ]; then
               echo "<li><a href='$filename.html'>$filename</a></li>" >> public/slidy/index.html
             fi
+          done
+
+          # Loop over each PDF file and add a link to it
+          for pdf_file in $(ls public/slidy/*.pdf); do
+            pdf_filename=$(basename "$pdf_file")
+            echo "<li><a href='$pdf_filename' target='_blank'>$pdf_filename</a></li>" >> public/slidy/index.html
           done
 
           echo "</ul></body></html>" >> public/slidy/index.html
