@@ -75,10 +75,12 @@ jobs:
             fi
           done
 
-          # Loop over each PDF file and add a link to it
-          for pdf_file in $(ls public/slidy/*.pdf); do
-            pdf_filename=$(basename "$pdf_file")
-            echo "<li><a href='$pdf_filename' target='_blank'>$pdf_filename</a></li>" >> public/slidy/index.html
+          # Loop over each PDF file and add a link to it if PDFs are present
+          for pdf_file in public/slidy/*.pdf; do
+            if [ -f "$pdf_file" ]; then
+              pdf_filename=$(basename "$pdf_file")
+              echo "<li><a href='$pdf_filename' target='_blank'>$pdf_filename</a></li>" >> public/slidy/index.html
+            fi
           done
 
           echo "</ul></body></html>" >> public/slidy/index.html
