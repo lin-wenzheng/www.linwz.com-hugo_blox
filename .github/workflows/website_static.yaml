@@ -71,7 +71,7 @@ jobs:
             fi
             filename=$(basename "$file" .html)
             if [ "$filename" != "index" ]; then
-              echo "<li><a href='$filename.html'>$filename</a></li>" >> public/slidy/index.html
+              echo "<li><a href='$filename.html' target='_blank'>$filename</a></li>" >> public/slidy/index.html
             fi
           done
 
