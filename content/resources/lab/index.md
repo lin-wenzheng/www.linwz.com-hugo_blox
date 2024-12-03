@@ -27,16 +27,16 @@ header:
   - jspsych 托管平台；用户名与密码进群询问；平台不稳定数据需及时下载。对应两种内网穿透方案，一个不能用时可以先试另一个。两个都不能用，及时切换到下面的容灾备份方案。
 ### 线上会议： https://meet.linwz.com
   - 线上会议使用，第一次加载时间会比较久，主持人向老师索要账号密码
-### ~~ Limesurvey： https://survey.lwz.one/admin ~~
+### ~~Limesurvey： https://survey.lwz.one/admin~~
   - 暂时关闭，如有需要联系网管开启
   - 问卷收集平台；用户名与密码进群询问.
-### ~~ Rstudio: https://r.lwz.one ~~
+### ~~Rstudio: https://r.lwz.one~~
   - 暂时关闭，有长时间跑大量数据需求联系网管创建单独容器实例，使用后联系关闭
   - R+Rstudio的线上版本；推荐使用本地版本。
 ### Zotero group library: [Social cognition and personality lab](https://www.zotero.org/groups/4978054/lwz-social_cognition_and_personality_lab)
   - 等你进行到文章写作投稿阶段再加，主要为共享文章引用文献列表用
   - 文献库共享
-### ~~ 短网址生成： https://lwz.one ~~
+### ~~短网址生成： https://lwz.one~~
   - 做实验如需生成短链接，可使用本系统；具体使用方法请联系老师。
 
 ### 容灾备份
