@@ -65,10 +65,6 @@ banner:
 Busch, C. A., Wiesenthal, N. J., Gin, L. E., & Cooper, K. M. (2024). Behind the graduate mental health crisis in science. <i>Nature Biotechnology</i>, <i>42</i>(11), 1749–1753. https://doi.org/10.1038/s41587-024-02457-z
 </p>
 
-<div class="csl-bib-body" style="line-height: 2; margin-left: 2em; text-indent:-2em;">
-  <div class="csl-entry">Busch, C. A., Wiesenthal, N. J., Gin, L. E., &amp; Cooper, K. M. (2024). Behind the graduate mental health crisis in science. <i>Nature Biotechnology</i>, <i>42</i>(11), 1749–1753. <a href="https://doi.org/10.1038/s41587-024-02457-z">https://doi.org/10.1038/s41587-024-02457-z</a></div>
-  <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1038%2Fs41587-024-02457-z&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Behind%20the%20graduate%20mental%20health%20crisis%20in%20science&amp;rft.jtitle=Nature%20Biotechnology&amp;rft.stitle=Nat%20Biotechnol&amp;rft.volume=42&amp;rft.issue=11&amp;rft.aufirst=Carly%20A.&amp;rft.aulast=Busch&amp;rft.au=Carly%20A.%20Busch&amp;rft.au=Nicholas%20J.%20Wiesenthal&amp;rft.au=Logan%20E.%20Gin&amp;rft.au=Katelyn%20M.%20Cooper&amp;rft.date=2024-11&amp;rft.pages=1749-1753&amp;rft.spage=1749&amp;rft.epage=1753&amp;rft.issn=1546-1696&amp;rft.language=en"></span>
-</div>
 
 - 在指导过程中，如果发现自己在跟我交流后有程度高或持续一天以上的负面情绪，逃避与我交流与接触，或将我对研究的评价与建议知觉为“harsh criticism”、“being scolded”，请及时与我联系沟通消除误会。
 - 在任何情况下都避免逞强、没听懂也点头等行为习惯，并及时纠正我对你的错误认知，避免自己“being held to unreasonable expectations”。
