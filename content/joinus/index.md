@@ -52,7 +52,7 @@ banner:
 - 该老师没有什么耐心
 - 该老师在学术上说话很直接
 
-#写在最后
+# 写在最后
 ## 心理健康
 做研究的过程充满了负反馈，需要自己能在研究中获得攻克问题、发现知识的乐趣，也需要导师给与更多的积极情感支持。
 “Negative reinforcement, such as receiving overly harsh criticism or being scolded by a research mentor, and being held to unreasonable expectations were two of the most detrimental aspects of research affecting student mental health”.
