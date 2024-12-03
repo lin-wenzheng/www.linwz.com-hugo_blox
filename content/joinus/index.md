@@ -62,7 +62,7 @@ banner:
 > “Conversely, making progress in research and receiving emotional support alleviated students’ symptoms of anxiety and depression”.
 
 <p style="padding-left: 2em; text-indent: -2em;">
-Busch, C. A., Wiesenthal, N. J., Gin, L. E., & Cooper, K. M. (2024). Behind the graduate mental health crisis in science. *Nature Biotechnology*, *42*(11), 1749–1753. https://doi.org/10.1038/s41587-024-02457-z
+Busch, C. A., Wiesenthal, N. J., Gin, L. E., & Cooper, K. M. (2024). Behind the graduate mental health crisis in science. <i>Nature Biotechnology</i>, <i>42</i>(11), 1749–1753. https://doi.org/10.1038/s41587-024-02457-z
 </p>
 
 - 在指导过程中，如果发现自己在跟我交流后有程度高或持续一天以上的负面情绪，逃避与我交流与接触，或将我对研究的评价与建议知觉为“harsh criticism”、“being scolded”，请及时与我联系沟通消除误会。
