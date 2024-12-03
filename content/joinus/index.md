@@ -57,9 +57,9 @@ banner:
 
 做研究的过程充满了负反馈，需要自己能在研究中获得攻克问题、发现知识的乐趣，也需要导师给与更多的积极情感支持。
 
-“Negative reinforcement, such as receiving overly harsh criticism or being scolded by a research mentor, and being held to unreasonable expectations were two of the most detrimental aspects of research affecting student mental health”.
+> “Negative reinforcement, such as receiving overly harsh criticism or being scolded by a research mentor, and being held to unreasonable expectations were two of the most detrimental aspects of research affecting student mental health”.
 
-“Conversely, making progress in research and receiving emotional support alleviated students’ symptoms of anxiety and depression”.
+> “Conversely, making progress in research and receiving emotional support alleviated students’ symptoms of anxiety and depression”.
 
 Busch, C. A., Wiesenthal, N. J., Gin, L. E., & Cooper, K. M. (2024). Behind the graduate mental health crisis in science. *Nature Biotechnology*, *42*(11), 1749–1753. https://doi.org/10.1038/s41587-024-02457-z
 
