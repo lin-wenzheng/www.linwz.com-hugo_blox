@@ -89,7 +89,7 @@ jobs:
         uses: manzoorwanijk/action-deploy-to-repo@v3
         with:
           src_dir: /public
-          target_repo: linlinlin1992/static_website
+          target_repo: lin-wenzheng/linwz.com-static
           target_dir: /
           target_branch: main # default
           access_token: ${{ secrets.GH_TOKEN }}
@@ -103,8 +103,8 @@ jobs:
         uses: tagus/git-deploy@v0.5.0
         with:
           changes: public
-          repository: git@github.com:linlinlin1992/staticsite_synced.git
+          repository: git@github.com:lin-wenzheng/linwz.com-static.git
           ssh_key: ${{ secrets.REPO_DEPLOY_KEY }}
-          name: linlinlin1992
-          email: linlinlin1992@sina.com
+          name: lin-wenzheng
+          email: wenzheng.lin@hotmail.com
           clean_repo: true
