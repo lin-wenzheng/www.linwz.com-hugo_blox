@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 社会认知与人格实验室 # Website name
+title: 林闻正|社会认知与人格实验室|Lin Wenzheng|Social Cognition & Personality Lab # Website name
 baseURL: 'https://www.linwz.com/' # Website URL
 
 ############################
