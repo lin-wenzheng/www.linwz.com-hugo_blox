@@ -1,6 +1,8 @@
-[![Deploy website to GitHub Pages](https://github.com/linlinlin1992/siteofresearch/actions/workflows/publish.yaml/badge.svg)](https://github.com/linlinlin1992/siteofresearch/actions/workflows/publish.yaml)[![Generate and Zip Website](https://github.com/linlinlin1992/siteofresearch/actions/workflows/website_static.yaml/badge.svg)](https://github.com/linlinlin1992/siteofresearch/actions/workflows/website_static.yaml)
 
 # This repo hosts the build files of my personal website https://www.linwz.com
+
+[![Deploy website to GitHub Pages](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/publish.yaml/badge.svg)](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/publish.yaml)
+[![Generate and Zip Website](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/website_static.yaml/badge.svg)](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/website_static.yaml)
 
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv) 
 
