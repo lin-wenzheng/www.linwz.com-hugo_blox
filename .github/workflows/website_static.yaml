@@ -85,19 +85,20 @@ jobs:
 
           echo "</ul></body></html>" >> public/slidy/index.html
 
-      - name: Deploy
-        uses: manzoorwanijk/action-deploy-to-repo@v3
-        with:
-          src_dir: /public
-          target_repo: lin-wenzheng/linwz.com-static
-          target_dir: /
-          target_branch: main # default
-          access_token: ${{ secrets.GH_TOKEN }}
-          cleanup_command: "rm -rf assets/*" #remove all the files before deploying
-
-          #destination-repository: 'static_website'
-          #destination-directory: '/'
-          git_user_email: 'linlinlin1992@sina.com'
+# The old modification would not be deleted in this action
+#      - name: Deploy
+#        uses: manzoorwanijk/action-deploy-to-repo@v3
+#        with:
+#          src_dir: /public
+#          target_repo: lin-wenzheng/linwz.com-static
+#          target_dir: /
+#          target_branch: main # default
+#          access_token: ${{ secrets.GH_TOKEN }}
+#          cleanup_command: "rm -rf assets/*" #remove all the files before deploying
+#
+#          #destination-repository: 'static_website'
+#          #destination-directory: '/'
+#          git_user_email: 'linlinlin1992@sina.com'
 
       - name: deploy changes to a repo
         uses: tagus/git-deploy@v0.5.0
