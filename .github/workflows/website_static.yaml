@@ -84,6 +84,13 @@ jobs:
           done
 
           echo "</ul></body></html>" >> public/slidy/index.html
+      - name: Generate README.md
+        run: |
+          # 生成 README.md 内容（示例为静态内容）
+          echo "# https://www.linwz.com 的静态站点文件" > public/README.md
+          echo "此仓库为自动生成的静态站点文件，请勿手动修改。" >> public/README.md
+          echo "最后更新于: $(date '+%Y-%m-%d %H:%M:%S')" >> public/README.md
+
 
 # The old modification would not be deleted in this action
 #      - name: Deploy
