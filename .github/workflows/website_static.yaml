@@ -87,7 +87,7 @@ jobs:
       - name: Generate README.md
         run: |
           # 生成 README.md 内容（示例为静态内容）
-          echo "# https://www.linwz.com 的静态站点文件" > public/README.md
+          echo "# [社会认知与人格实验室|林闻正](https://www.linwz.com "社会认知与人格实验室|林闻正") (https://www.linwz.com) 的静态站点文件" > public/README.md
           echo "此仓库为自动生成的静态站点文件，请勿手动修改。" >> public/README.md
           echo "最后更新于: $(date '+%Y-%m-%d %H:%M:%S')" >> public/README.md
 
