@@ -1,17 +1,7 @@
 ---
-title: 远程打印教程
-summary: 使用远程打印服务
+title: "远程打印教程"
+summary: "使用远程打印服务"
 date: "2025-03-25T00:00:00Z"
-
-reading_time: false  # Show estimated reading time?
-share: false  # Show social sharing links?
-profile: false  # Show author profile?
-comments: ture  # Show comments?
-
-# Optional header image (relative to `assets/media/` folder).
-header:
-  caption: "RESOURCES"
-  image: ""
 ---
 
 背景知识：打印机目前位于洁琼楼220，打印前提前跟老师说明。
