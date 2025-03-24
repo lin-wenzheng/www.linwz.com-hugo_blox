@@ -2,8 +2,8 @@
 # [社会认知与人格实验室|林闻正](https://www.linwz.com "社会认知与人格实验室|林闻正") (https://www.linwz.com)
 This repo hosts the build files of my personal website.
 
-[![Deploy website to GitHub Pages](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/publish.yaml/badge.svg)](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/publish.yaml)
-[![Generate and Zip Website](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/website_static.yaml/badge.svg)](https://github.com/lin-wenzheng/linwz.com-hugo_blox/actions/workflows/website_static.yaml)
+[![Deploy website to GitHub Pages](https://github.com/lin-wenzheng/www.linwz.com-hugo_blox/actions/workflows/publish.yaml/badge.svg)](https://github.com/lin-wenzheng/www.linwz.com-hugo_blox/actions/workflows/publish.yaml)
+[![Generate and Zip Website](https://github.com/lin-wenzheng/www.linwz.com-hugo_blox/actions/workflows/website_static.yaml/badge.svg)](https://github.com/lin-wenzheng/www.linwz.com-hugo_blox/actions/workflows/website_static.yaml)
 
 # [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv) 
 
