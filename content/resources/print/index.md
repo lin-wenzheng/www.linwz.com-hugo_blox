@@ -1,7 +1,7 @@
 ---
-title: "远程打印教程"
-summary: "使用远程打印服务"
-date: "2025-03-25T00:00:00Z"
+title: Blog with Jupyter Notebooks!
+date: '2023-11-04'
+summary: Easily blog from Jupyter notebooks!
 ---
 
 
