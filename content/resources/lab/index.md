@@ -51,4 +51,4 @@ header:
 - 大量打印（如研究问卷）请使用打印店服务并走报销程序
 
 ### 课程资料（测试）
-- [统计](/resources/statistics/chap2/moderation_mediation.html)
+- [统计](/resources/statistics/chap2/index.html)
