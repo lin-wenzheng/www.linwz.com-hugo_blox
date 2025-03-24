@@ -1,7 +1,7 @@
 ---
-title: Blog with Jupyter Notebooks!
-date: '2023-11-04'
-summary: Easily blog from Jupyter notebooks!
+title: 无线打印教程
+date: '2025-03-25'
+summary: 
 ---
 
 
