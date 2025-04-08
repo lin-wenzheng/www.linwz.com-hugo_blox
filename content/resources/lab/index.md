@@ -50,5 +50,9 @@ header:
 - 如有与研究相关的少量打印需求，可使用远程打印服务。[点击查看教程](/resources/print/index.html)
 - 大量打印（如研究问卷）请使用打印店服务并走报销程序
 
+### PDF 编辑： https://pdf.linwz.com
+- 主要功能为pdf的缩小文件大小和签名
+- 用户名与密码问老师
+
 ### 课程资料（测试）
 - [统计](/resources/statistics/chap2/index.html)
