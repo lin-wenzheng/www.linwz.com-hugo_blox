@@ -26,7 +26,7 @@ banner:
 
 联系邮箱： [lin.wenzheng@aliyun.com](lin.wenzheng@aliyun.com)
 
-如果阿里云邮箱出现邮件拒收，可发 [psywzlin@gmail.com](psywzlin@gmail.com) 或 [new@linwz.com](new@linwz.com)
+如果阿里云邮箱出现邮件拒收，可发 [psywzlin@gmail.com](psywzlin@gmail.com) 或 [recruit@linwz.com](recruit@linwz.com)
 
 邮件内容请尽量简短，写明姓名、本科院校（研究生）、年级班级（本科生）等基本信息与联系目的即可。可以不写你对于心理学、研究方向的想法与感悟。如有简历，可附上，简历内容尽量包含已修课程、英语成绩、学术技能（编程语言、数据分析等）等。
 
